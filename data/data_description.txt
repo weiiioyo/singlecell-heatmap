@@ -1,0 +1,2 @@
+obj_5000.rds: dataset source from GEO(GSE131907), downsample for 5000 cells.
+gene.txt: FindAllMarkers results of GSE131907 Minor CellType.
