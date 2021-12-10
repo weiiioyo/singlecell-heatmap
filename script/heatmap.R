@@ -72,5 +72,5 @@ library(patchwork)
 pic.heatmap=p2+p1+plot_layout(ncol = 2, widths  = c(1, 3))
 
 pdf("test.pdf",w=10.5,h=10)
-pic.heatmap & theme(plot.margin = margin(0,0,1,1))
+pic.heatmap & theme(plot.margin = margin(0,0,0,0))
 dev.off()
